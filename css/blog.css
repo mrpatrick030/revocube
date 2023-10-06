@@ -1,0 +1,296 @@
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    overflow-x: hidden;
+}
+.navButton {
+    border-radius: 30px;
+    border: 1px;
+    color: #fff;
+    background-color: #f02f30;
+    padding: 10px 30px 10px 30px;
+}
+
+a.nav-link {
+    color: #000;
+    text-decoration: none;
+
+}
+
+nav ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.lastList {
+    margin-left: 50px;
+}
+
+.navbarItems {
+    margin-left: 5rem;
+    gap: 15px;
+}
+.blogHeader{
+    margin-top: 10%;
+    width: 50%;
+    align-items: center;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+
+}
+.blogTitle{
+    font-size: 40px;
+    font-weight: 700;
+}
+.blogText{
+    font-size: 20px;
+    font-weight: 400;
+}
+.buttons{
+    display: flex;
+}
+.allBtn,
+.newsBtn,
+.resourcesBtn,
+.articlesBtn{
+    border: 1px;
+        border-radius: 30px;
+        color: #000;
+        background-color: #f1f1f1;
+        padding: 15px 40px 15px 40px;
+        margin-top: 5%;
+}
+.allBtn:hover,
+.newsBtn:hover,
+.resourcesBtn:hover,
+.articlesBtn:hover{
+    background-color: #f02f30;
+}
+/*dark-bg*/
+section.dark-bg {
+    background-image: url("../images/darkbg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    color: white;
+}
+.red-btn{
+        border: 1px;
+            border-radius: 30px;
+            color: #fff;
+            background-color: #f02f30;
+            padding: 15px 40px 15px 40px;
+}
+/*footer*/
+footer {
+    background-color: #000;
+    color: white;
+    padding-bottom: 20px;
+
+}
+
+.footer {
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+
+
+}
+
+.footerTitle {
+    font-size: 36px;
+    font-weight: 800px;
+}
+
+.footerText {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footerBtn {
+    border: 1px;
+    border-radius: 30px;
+    color: #fff;
+    background-color: #f02f30;
+    padding: 15px 40px 15px 40px;
+}
+
+.footerContact {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footerContactTexts {
+    font-size: 14px;
+    font-weight: 400;
+
+
+}
+
+.footerLinks {
+    text-decoration: none;
+    color: white;
+}
+
+.contactDetails {
+    text-align: center;
+}
+
+.copyright {
+    margin-left: 50px;
+}
+
+/*blog2*/
+.camImg{
+    width: 100%;
+}
+/*Contact Information*/
+.contactInformation{
+    
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    gap: 20px;
+    
+    
+}
+.contactHeader{
+    width: 50%;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+h1.contactHeading{
+    font-size: 30px;
+    font-weight: 700;
+}
+p.contactHeadingText{
+    font-size: 14px;
+    font-weight: 400;
+}
+.email,
+.phone,
+.address{
+    background-color: #f1f1f1;
+    margin: 10px 10px 10px 10px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 33.5%;
+}
+.submitBtn{
+    border: 1px;
+        border-radius: 30px;
+        color: #fff;
+        background-color: #f02f30;
+        padding: 10px 30px 10px 30px;
+}
+div.contents2{
+    margin-inline: auto;
+}
+
+/*contact*/
+@media screen and (max-width: 480px) {
+/*blog*/
+
+
+
+
+    /*contact header*/
+    .contactInformation{
+        display: flex;
+        flex-direction: column;
+    }
+    .contactHeader{
+        width: 100%;
+    }
+    .email,
+    .phone,
+    .address{
+        border-radius: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        width: 100%;
+    
+    }
+               /*Footer*/
+                footer{
+                   padding: 1rem 1rem 1rem 1rem;
+                }
+                div.footer.col-6.mb-5{
+                   width: 100%;
+    
+                }
+                p.footerTitle{
+                    font-size: 24px;
+                    font-weight: 700;
+                    margin-top: 20px;
+                }
+                p.footerContactTexts{
+                    line-height: 4px;
+                }
+                .footerBtn{
+                    width: 100%;
+                }
+                .footer{
+                    margin: 0 auto;
+                }
+                div.row.mx-5.contactDetails{
+                    display: block;
+                    
+                }
+                div.col-4.footerDiv{
+                    width: 100%;
+                }
+                div.col-4.footerDiv.clientImages,
+                div.row.mx-5.contactDetails,
+                div.col-9.copyright,
+                div.col-3.socials {
+                    width: 100%;
+                }
+                .contactDetails{
+                    text-align: left;
+                }
+                .copyright {
+                    margin-left: 0px;
+                }
+
+/*blog*/
+          div.blogContents{
+            margin-top: 10px;
+          }
+          .contents{
+            gap: 30px;
+          }
+          .buttons{
+            flex-direction: column;
+            width: 40%;
+          }
+            .allBtn,
+            .newsBtn,
+            .resourcesBtn,
+            .articlesBtn {
+                border: 1px;
+                border-radius: 10px;
+                color: #000;
+                background-color: #f1f1f1;
+                padding: 15px 40px 15px 40px;
+                margin-top: 5%;
+            }
+            .blogTitle {
+                font-size: 24px;
+                font-weight: 700;
+            }
+            
+            .blogText {
+                font-size: 14px;
+                font-weight: 400;
+            }
+         
+
+        
+        
+}

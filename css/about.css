@@ -1,0 +1,219 @@
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    overflow-x: hidden;
+}
+.navButton {
+    border-radius: 30px;
+    border: 1px;
+    color: #fff;
+    background-color: #f02f30;
+    padding: 10px 30px 10px 30px;
+}
+a.nav-link {
+    color: #000;
+    text-decoration: none;
+
+}
+nav ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+.lastList{
+    margin-left: 50px;
+}
+.navbarItems{
+    margin-left: 5rem;
+    gap: 15px;
+}
+.mission{
+    font-size: 40px;
+    font-weight: 800;
+}
+.missionVision{
+    display: flex;
+    gap: 45px;
+    margin-bottom: 50px;
+}
+.missionDiv{
+    text-align: center;
+}
+.missionImgs{
+    width: 100%;
+}
+.missionIcons{
+    gap: 10px;
+}
+.text-start{
+    width: 100%;
+}
+
+.aboutImages{
+    display: flex;
+    gap: 10px;
+}
+.aboutImg{
+    width: 25%;
+}
+
+.storyTitle,
+.valuesTitle{
+    color: #f02f30;
+        font-size: 20px;
+}
+.storyText,
+.valuesText{
+    font-size: 40px;
+        font-weight: 700;
+}
+.storyText2{
+    font-size: 20px;
+}
+.storyImage{
+    width: 100%;
+}
+
+
+/*footer*/
+footer {
+    background-color: #000;
+    color: white;
+    padding-bottom: 20px;
+
+}
+
+.footer {
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+
+
+}
+
+.footerTitle {
+    font-size: 36px;
+    font-weight: 800px;
+}
+
+.footerText {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footerBtn {
+    border: 1px;
+    border-radius: 30px;
+    color: #fff;
+    background-color: #f02f30;
+    padding: 15px 40px 15px 40px;
+}
+
+.footerContact {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footerContactTexts {
+    font-size: 14px;
+    font-weight: 400;
+
+
+}
+
+.footerLinks {
+    text-decoration: none;
+    color: white;
+}
+
+.contactDetails {
+    text-align: center;
+}
+
+.copyright {
+    margin-left: 50px;
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+   /*mission section*/
+
+   .aboutContainer{
+    padding: 1rem;
+    align-items: center;
+   }
+    
+    .mission{
+        font-size: 30px;
+        text-align: center;
+        font-weight: 700;
+    }
+    .aboutImages{
+        display: flex;
+    }
+
+    /*Values Section*/
+    .valuesTitle,
+    .storyTitle{
+        font-size: 10px;
+        font-weight: 500;
+    }
+    .valuesText,
+    .storyText{
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .missionVision{
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+    }
+    .textCard{
+        background-color: #fafafa;
+    }
+        /*Footer*/
+                footer{
+                   padding: 1rem 1rem 1rem 1rem;
+                }
+                div.footer.col-6.mb-5{
+                   width: 100%;
+    
+                }
+                p.footerTitle{
+                    font-size: 24px;
+                    font-weight: 700;
+                    margin-top: 20px;
+                }
+                p.footerContactTexts{
+                    line-height: 4px;
+                }
+                .footerBtn{
+                    width: 100%;
+                }
+                .footer{
+                    margin: 0 auto;
+                }
+                div.row.mx-5.contactDetails{
+                    display: block;
+                    
+                }
+                div.col-4.footerDiv{
+                    width: 100%;
+                }
+                div.col-4.footerDiv.clientImages,
+                div.row.mx-5.contactDetails,
+                div.col-9.copyright,
+                div.col-3.socials {
+                    width: 100%;
+                }
+                .contactDetails{
+                    text-align: left;
+                }
+                .copyright {
+                    margin-left: 0px;
+                }
+
+}

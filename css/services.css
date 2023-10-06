@@ -1,0 +1,310 @@
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+/*navbar styling*/
+.navButton {
+    border-radius: 30px;
+    border: 1px;
+    color: #fff;
+    background-color: #f02f30;
+    padding: 10px 30px 10px 30px;
+}
+
+a.nav-link {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+a.nav-link:hover {
+    color: #fff;
+}
+
+nav ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+
+.lastList {
+    margin-left: 50px;
+}
+
+.navbarItems {
+    margin-left: 5rem;
+    gap: 15px;
+}
+
+button.navbar-toggler {
+    background: #fff;
+}
+
+.navButton {
+    border-radius: 30px;
+    border: 1px;
+    color: #fff;
+    background-color: #f02f30;
+    padding: 10px 30px 10px 30px;
+}
+
+.navButton:hover {
+    color: #f1f1f1;
+}
+
+
+.firstSection{
+    background-image: url("../images/servicesbg.png");
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+
+}
+.firstParagraph{
+    margin-top: 20px;
+    color: #fff;
+    text-align: center;
+}
+.red-btn{
+    border: 1px;
+        border-radius: 30px;
+        color: #fff;
+        background-color: #f02f30;
+        padding: 15px 40px 15px 40px;
+}
+.services{
+    margin-top: 150px;
+    color: #fff;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+   
+}
+.servicesTitle{
+    font-size: 40px;
+        font-weight: 800;
+}
+.servicesText{
+    font-size: 16px;
+        font-weight: 400;
+}
+.buttons{
+    color: #244771;
+    padding: 20px;
+    box-shadow: 10px 0px 10px 0px;
+        
+    
+}
+#videoProductionBtn,
+#audioProductionBtn,
+#photographyBtn{
+    border-radius: 30px;
+        border: 1px;
+        color: #000;
+        background-color: #f1f1f1;
+        padding: 10px 30px 10px 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        
+        
+}
+#audioProduction,
+#photography{
+    display: none;
+}
+#videoProductionBtn:hover,
+#audioProductionBtn:hover,
+#photographyBtn:hover{
+    background-color: #f02f30;
+}
+.videoTitle,
+.photographyTitle,
+.audioTitle{
+    font-size: 40px;
+    font-weight: 700;
+}
+.videoText,
+.photographyText,
+.audioText{
+    font-size: 16px;
+    font-weight: 400;
+}
+.card-body.card-padding2{
+    padding-bottom: 76px;
+}
+.card-body.card-padding3{
+    padding-bottom: 45px;
+}
+.card-body.card-padding6,
+.card-body.card-padding8{
+    padding-bottom: 40px;
+}
+.card-body.card-padding10{
+    padding-bottom: 40px;
+}
+footer {
+    background-color: #000;
+    color: white;
+    padding-bottom: 50px;
+
+}
+
+.footer {
+    text-align: center;
+    margin-left: 25%;
+
+}
+
+.footerTitle {
+    font-size: 36px;
+    font-weight: 800px;
+}
+
+.footerBtn {
+    border: 1px;
+    border-radius: 30px;
+    color: #fff;
+    background-color: #f02f30;
+    padding: 15px 40px 15px 40px;
+}
+
+.footerContact {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footerContactTexts {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footerLinks {
+    text-decoration: none;
+    color: white;
+}
+.contactDetails {
+    text-align: center;
+}
+
+/*Media Queries*/
+@media screen and (max-width: 480px){
+    .firstSection {
+        background-image: url("../images/servicesbg.png");
+        color: #fff;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        width: 100%;
+        text-align: center;
+       
+    }
+    .firstParagraph{
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+    }
+    h1.firstParagraphTitle {
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    .firstParagraphText {
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .red-btn {
+        border-radius: 30px;
+        color: #fff;
+        background-color: #f02f30;
+        width: 100%;
+        padding: 10px;
+    
+    }
+    /*productions*/
+    .productions{
+        width: 100%;
+
+    }
+    .buttons{
+        display: flex;
+        width: 100%;  
+        justify-content: center; 
+        gap: 5px;
+    
+    
+    }
+    #videoProductionBtn,
+    #audioProductionBtn,
+    #photographyBtn{
+        padding: 7px;
+        align-items: center;
+
+
+    }
+    .videoTitle{
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .videoText{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .videoProductionCards{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+    }
+    div.col-4.videoCard{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+          /*Footer*/
+                /*Footer*/
+                footer{
+                   padding: 1rem 1rem 1rem 1rem;
+                }
+                div.footer.col-6.mb-5{
+                   width: 100%;
+    
+                }
+                p.footerTitle{
+                    font-size: 24px;
+                    font-weight: 700;
+                    margin-top: 20px;
+                }
+                p.footerContactTexts{
+                    line-height: 4px;
+                }
+                .footerBtn{
+                    width: 100%;
+                }
+                .footer{
+                    margin: 0 auto;
+                }
+                div.row.mx-5.contactDetails{
+                    display: block;
+                    
+                }
+                div.col-4.footerDiv{
+                    width: 100%;
+                }
+                div.col-4.footerDiv.clientImages,
+                div.row.mx-5.contactDetails,
+                div.col-9.copyright,
+                div.col-3.socials {
+                    width: 100%;
+                }
+                .contactDetails{
+                    text-align: left;
+                }
+                .copyright {
+                    margin-left: 0px;
+                }
+
+}
+
+
+
