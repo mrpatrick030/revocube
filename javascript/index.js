@@ -30,7 +30,7 @@ const showVideos = () => {
 }
 
 const showPictures = () => {
-    picture.style.display = "block";
+    picture.style.display = "flex";
     video.style.display = "none";
 }
 
